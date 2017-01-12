@@ -12,3 +12,6 @@ Add syscall ssmem_attach and ssmem_detach, manage simple memory sharing between 
 
 ## Lab 4: Cloud file system
 Add new function to ext2 file system. When the space of the fs is not enough, the deamon thread evict some file to the server and fetch them back when it is needed.
+
+
+Bug still exists.
